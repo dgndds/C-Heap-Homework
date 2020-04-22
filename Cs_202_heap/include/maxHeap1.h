@@ -5,15 +5,16 @@
 class maxHeap1
 {
     public:
-    maxHeap();
-    maxHeap( const int someArray[], const int arraySize); // Done
-    bool isEmpty() const;
-    int getNumberOfNodes() const;
-    int getHeight() const;
-    int peekTop() const;
-    bool add( const int& newData);
-    bool remove();
-    void clear();
+    maxHeap1(); // Done
+    maxHeap1( const int someArray[], const int arraySize); // Done
+    bool isEmpty() const; // Done
+    int getNumberOfNodes() const; // Done
+    int getHeight() const; // Done
+    //int peekTop() const;
+    bool add( const int& newData); // Done
+    //bool remove();
+    //void clear();
+    void print();
 
     private:
         static const int ROOT_INDEX = 0;
@@ -21,10 +22,11 @@ class maxHeap1
         int* items;
         int itemCount;
         int maxItems;
+        bool heapEmpty;
         int getLeftChildIndex( const int nodeIndex) const; // Done
         int getRightChildIndex( int nodeIndex) const; // Done
         int getParentIndex( int nodeIndex) const; // Done
-        bool isLeaf( int nodeIndex) const;
+        bool isLeaf( int nodeIndex) const; // Done
         void heapRebuild( int subTreeRootIndex); // Done
         void heapCreate(); // Done
 };
