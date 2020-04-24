@@ -1,6 +1,30 @@
 # depslib dependency file v1.0
-1587560450 source:c:\users\musta\onedrive\masaüstü\hw\cs 202\heap hw\c-heap-homework\cs_202_heap\src\maxheap1.cpp
+1587567054 source:c:\users\musta\onedrive\masaüstü\hw\cs 202\heap hw\c-heap-homework\cs_202_heap\src\maxheap1.cpp
+	"maxHeap1.h"
+	<cmath>
+	<iostream>
+
+1587566375 c:\users\musta\onedrive\masaüstü\hw\cs 202\heap hw\c-heap-homework\cs_202_heap\include\maxheap1.h
+
+1587567510 source:c:\users\musta\onedrive\masaüstü\hw\cs 202\heap hw\c-heap-homework\cs_202_heap\src\main.cpp
+	<iostream>
 	"maxHeap1.h"
 
-1587560581 c:\users\musta\onedrive\masaüstü\hw\cs 202\heap hw\c-heap-homework\cs_202_heap\include\maxheap1.h
+1587574414 source:e:\cs 202 hws\heap hw\c-heap-homework\cs_202_heap\src\main.cpp
+	<iostream>
+	"maxHeap1.h"
+
+1587646521 e:\cs 202 hws\heap hw\c-heap-homework\cs_202_heap\include\maxheap1.h
+	<string>
+
+1587672420 source:e:\cs 202 hws\heap hw\c-heap-homework\cs_202_heap\src\maxheap1.cpp
+	"maxHeap1.h"
+	<cmath>
+	<fstream>
+	<iostream>
+
+1587721931 source:e:\cs 202 hws\heap hw\c-heap-homework\cs_202_heap\src\simulator.cpp
+	<iostream>
+	<fstream>
+	"maxHeap1.h"
 
