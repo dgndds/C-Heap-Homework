@@ -299,7 +299,7 @@ for(int i = 0; i < doctorCount; i++){
                             chosenPatient = patient2;
                             heap.add(data[patient1]);
                         }else{
-                            chosenPatient = patient1;
+                            chosenPatient = patient1; //change
                             heap.add(data[patient2]);
                         }
 //                    }else{
